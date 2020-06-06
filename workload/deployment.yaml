@@ -20,7 +20,7 @@ spec:
         image: devlaunchers/template_project-app:latest
         env:
         - name: PORT
-          value: 4000
+          value: "4000"
         ports:
         - containerPort: 4000
         resources:
