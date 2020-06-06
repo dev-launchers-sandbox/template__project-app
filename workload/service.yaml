@@ -6,6 +6,7 @@ spec:
   selector:
     app: template-app
   ports:
-    - protocol: TCP
-      port: 4000
+    - name: https
+      protocol: TCP
+      port: 443
       targetPort: 4000

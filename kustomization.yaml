@@ -1,4 +1,4 @@
   
-namespace: project-discord-bot
+namespace: template-app
 bases:
   - ./workload
